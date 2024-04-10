@@ -28,6 +28,13 @@ function App() {
   },
 ]);
 
+const addItem = (item) => {
+  item.id = "ID-" + items.length;
+  item.done = false;
+  setItem([...items, item]);// items 배열에 item 원소 추가
+  console.log("items: ", items)
+}
+
 // JSX 결과를 변수에 저장
 let todoItems = items.length >0 && (
   <Paper style={{margin:16}}>
