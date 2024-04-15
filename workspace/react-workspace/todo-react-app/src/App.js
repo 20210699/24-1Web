@@ -17,12 +17,7 @@ function App() {
   {
     id: "2",
     title: "Hello World 3",
-    done: false
-  },
-  {
-    id: "3",
-    title: "Hello World 4",
-    done: false
+    done: true
   },
 ]);
 
