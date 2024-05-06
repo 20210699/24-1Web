@@ -31,6 +31,9 @@ dependencies {
 
 	// https://mvnrepository.com/artifact/com.google.guava/guava
 	implementation group: 'com.google.guava', name: 'guava', version: '32.1.0-jre'
+	implementation group: 'io.jsonwebtoken', name:'jjwt', version:'0.9.1'
+	implementation 'javax.xml.bind:jaxb-api:2.3.1' // jwt 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 
 }
 
