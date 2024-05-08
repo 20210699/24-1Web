@@ -13,7 +13,7 @@ const AddTodo = (props) => {
 
     //엔터 버튼 입력 시
     const enterKeyEventHandler = (e) => {
-        if(e.key == 'Enter'){
+        if(e.key === 'Enter'){
             onButtonClick();
         }
     }
